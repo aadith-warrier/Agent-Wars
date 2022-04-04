@@ -29,7 +29,7 @@ for episode in range(1, episodes):
         action = random.choice([0,1,2,3])
         print("actionn taken=",action)
         observations, reward, done, _ = gym_env.step(action)
-        print("observations: ",observations)
+        print("observations: ",len(observations))
         score += reward
         print("reward: ",reward)
     gym_env.reset()
