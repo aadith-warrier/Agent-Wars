@@ -1,4 +1,3 @@
-from pickle import TRUE
 import random
 
 #This package is used to wrap the unity environment into a gym environment
@@ -17,7 +16,6 @@ gym_env=UnityToGymWrapper(env)
 
 states = gym_env.observation_space.shape[0]
 actions = 4
-
 print(states)
 print(actions)
 
