@@ -46,7 +46,7 @@ This is the windows build for the game, Linux/mac builds have not been created y
 ### Making a Submission
 > * Create your RL model in the [rl.py]() file and commit and push to this repo.
 > * Train your RL model and save the parameters to a file, any format works.
-> * Create a file named [agent.py]() which is capable of using your trained model to play the game.
+> * Create a file named [agent.py]() which is capable of using your trained model to play the game and return the rewards.
 > * Commit and push both the [agent.py]() and the parameters file to this repo.
 > * Evaluation of your model will be done based on the performance of the [agent.py]() file.
 > * In case your agent.py script is not working, your submission will not be considered for evaluation
